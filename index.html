@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Crystal Collector</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel ="stylesheet" type="text/css" href="assets/css/style.css">
+		<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="container">
+
+			<h1>Crystal Collector</h1>
+
+			<section id="content">
+				<p>
+                    You'll be given a random number to start the game, there are four crystals below each representing a number use the crystals to try and match the number displayed in the beginning. If you match it you win but if you exceed the number you lose, good luck! 
+				</p>
+			</section>
+			
+			<section id="scoring">
+				<p id="randomNumElm"></p>
+				<div id="winLoss">
+					<p id="winHTML">Win</p>
+					<p id="lossHTML">Loss</p>
+				</div>
+			</section>
+			
+			<section id="gemPanel">
+				<img id="gem1HTML" class="shadowfilter" src="assets/images/gem1.JPG">
+				<img id="gem2HTML" class="shadowfilter" src="assets/images/gem2.JPG">
+				<img id="gem3HTML" class="shadowfilter" src="assets/images/gem3.JPG">
+				<img id="gem4HTML" class="shadowfilter" src="assets/images/gem4.JPG">
+            </section>
+            
+			<section id="totalScorePanel">
+				<p id="userScoreElm">Your total score is:</p>
+			</section>
+		</div>
+		<script src="assets/javascript/game.js"></script>
+	</body>
+
+</html>
