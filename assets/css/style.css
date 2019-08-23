@@ -1,0 +1,56 @@
+/*
+	Global Variable	  
+*/
+
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+ p{
+	margin-bottom:15px;
+	font-size:20px;
+
+	}
+
+img{
+	cursor:pointer;
+	height: 90px;
+	margin:5px;
+}
+
+
+h1{
+	font-size: 32px;
+	margin-bottom:15px;
+}
+
+#container{
+	width:85%;
+	margin:0 auto 0 auto;
+}
+
+#scoring{
+	background-color:yellow;
+	padding-bottom:10px;
+	margin:10px;
+}
+
+#scoring{
+	width:30%;
+}
+
+#userScoreElm{
+	font-size:25px;
+	margin-top:15px;
+}
+
+.shadowfilter {
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	
+}.shadowfilter:hover {
+	-webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 255, 0.8));
+}
